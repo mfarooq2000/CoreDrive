@@ -1,0 +1,78 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    overflow-y:scroll;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input.max-width,
+select.max-width,
+textarea.max-width {
+    max-width: 280px;
+}
+
+table.listing {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    table.listing td, table.listing th {
+        border: 1px solid #3785F9;
+        text-align: left;
+        padding: 8px;
+    }
+
+    table.listing tr:nth-child(even) {
+        background-color: #DEEBFE;
+    }
+
+.gap-top {
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+a img.profilepic, img.profilepic {
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.gap-top-sm {
+    margin-top: 20px;
+}
+
+.advanced-search {
+    margin-top: 10px;
+}
+
+    .advanced-search .row {
+        margin-bottom: 5px;
+    }
+.advanced-search-panel-collapsed {
+display:none;
+}
+
+
+.advanced-search-expander {
+   font-size: 21px;
+margin-right: 5px;
+margin-top: -4px;
+cursor:pointer;
+}

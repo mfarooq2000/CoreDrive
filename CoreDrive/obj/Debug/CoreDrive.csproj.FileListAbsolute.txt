@@ -1,0 +1,138 @@
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\csc.exe
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\System.Collections.Immutable.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\System.Reflection.Metadata.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\vbc.exe
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\VBCSCompiler.exe
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\roslyn\VBCSCompiler.exe.config
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\CoreDrive.dll.config
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\CoreDrive.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\CoreDrive.pdb
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Antlr3.Runtime.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\EntityFramework.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\EntityFramework.SqlServer.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.Core.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Cookies.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Facebook.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Google.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.OAuth.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Twitter.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Web.Infrastructure.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Newtonsoft.Json.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Owin.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.Helpers.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.Mvc.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.Optimization.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.Razor.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.WebPages.Deployment.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.WebPages.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.WebPages.Razor.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\WebGrease.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.Helpers.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.Mvc.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.Optimization.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.Razor.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.WebPages.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.WebPages.Deployment.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\System.Web.WebPages.Razor.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Antlr3.Runtime.pdb
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Newtonsoft.Json.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\EntityFramework.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\EntityFramework.SqlServer.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.Core.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Facebook.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Cookies.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.OAuth.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Google.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Twitter.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\obj\Debug\CoreDrive.csprojResolveAssemblyReference.cache
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\obj\Debug\CoreDrive.dll
+D:\oDesk\Muhammad Farooq\Project\CoreDrive\CoreDrive\obj\Debug\CoreDrive.pdb
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\csc.exe
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\System.Collections.Immutable.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\System.Reflection.Metadata.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\vbc.exe
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\VBCSCompiler.exe
+D:\sandbox\CoreDrive\CoreDrive\bin\roslyn\VBCSCompiler.exe.config
+D:\sandbox\CoreDrive\CoreDrive\bin\CoreDrive.dll.config
+D:\sandbox\CoreDrive\CoreDrive\bin\CoreDrive.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\CoreDrive.pdb
+D:\sandbox\CoreDrive\CoreDrive\bin\Antlr3.Runtime.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\EntityFramework.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\EntityFramework.SqlServer.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.Core.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Cookies.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Facebook.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Google.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.OAuth.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Twitter.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Web.Infrastructure.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Newtonsoft.Json.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Owin.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.Helpers.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.Mvc.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.Optimization.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.Razor.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.WebPages.Deployment.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.WebPages.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.WebPages.Razor.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\WebGrease.dll
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.Helpers.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.Mvc.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.Optimization.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.Razor.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.WebPages.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.WebPages.Deployment.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\System.Web.WebPages.Razor.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Antlr3.Runtime.pdb
+D:\sandbox\CoreDrive\CoreDrive\bin\Newtonsoft.Json.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\EntityFramework.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\EntityFramework.SqlServer.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.Core.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Facebook.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Cookies.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.OAuth.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Google.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.Twitter.xml
+D:\sandbox\CoreDrive\CoreDrive\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\sandbox\CoreDrive\CoreDrive\obj\Debug\CoreDrive.csprojResolveAssemblyReference.cache
+D:\sandbox\CoreDrive\CoreDrive\obj\Debug\CoreDrive.dll
+D:\sandbox\CoreDrive\CoreDrive\obj\Debug\CoreDrive.pdb

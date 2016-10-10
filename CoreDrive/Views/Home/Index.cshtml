@@ -1,0 +1,186 @@
+﻿@model CoreDrive.Models.SearchModel
+    @{
+        ViewBag.Title = "Home Page";
+        var collapsedClass = "";
+        var expanderCSS = "glyphicon-minus-sign";
+        if (ViewBag.AdvancedSearch != null && ViewBag.AdvancedSearch == false)
+        {
+            collapsedClass = "advanced-search-panel-collapsed";
+            expanderCSS = "glyphicon-plus-sign";
+        }
+    }
+    <div style="margin-bottom:10px;">
+        &nbsp;
+    </div>
+    @using (Html.BeginForm("Index", "Home", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        <div class="row">
+            <div class="col-md-9 col-md-offset-1">
+                <div class="form-group">
+                    <input id="q" name="q" type="text" placeholder="Search Issues" value="@Model.q" class="form-control input-lg pull-left" />
+
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group" style="padding-left:5px;">
+
+                    <button type="submit" class="btn btn-default btn-lg">Search</button>
+                </div>
+            </div>
+        </div>
+    }
+
+   
+    <div class="row advanced-search">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading advanced-search-panel-heading">
+                    <span class="advanced-search-expander glyphicon @expanderCSS pull-left"></span>
+                    <h3 class="panel-title pull-left">Advaced Search</h3>
+                    
+                    @Html.ActionLink("New Issue", "Issue", null, new { @class= "pull-right" })
+                   
+                    <div class="clearfix"></div>
+                </div>
+                <div class="panel-body advanced-search-panel-body @collapsedClass">
+
+                    <div class="form-group">
+                        <form class="form-horizontal" action="/Home/AdvancedSearch" method="post" role="form">
+                            <div class="row">
+                                <div class="col-md-2">Issue Name:</div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(m => m.WorkSpace.IssueName, new { @class= "form-control" })
+                               
+                                </div>
+                                <div class="col-md-2">Unique Ref.#</div>
+                                <div class="col-md-4">@Html.TextBoxFor(m => m.WorkSpace.UniqueReferenceNumber, new { @class = "form-control" })</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">Work Category:</div>
+                                <div class="col-md-4">
+
+                                    @if (Model.lstWorkCategories != null && Model.lstWorkCategories.Count > 0)
+                                    {
+                                        @Html.DropDownListFor(m => m.WorkSpace.WorkCategory, new SelectList(Model.lstWorkCategories, "Value", "Name"), "Select", new { @class = "form-control" })
+                                    }
+                                </div>
+                                <div class="col-md-2">Issue Type:</div>
+                                <div class="col-md-4">
+                                    @if (Model.lstIssueTypes != null && Model.lstIssueTypes.Count > 0)
+                                    {
+                                        @Html.DropDownListFor(m => m.WorkSpace.IssueType, new SelectList(Model.lstIssueTypes, "Value", "Name"), "Select", new { @class = "form-control" });
+                                    }
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">Status:</div>
+                                <div class="col-md-4">
+                                    <select id="WorkSpace_Status" name="WorkSpace.Status" class="form-control">
+                                        <option value="">Select</option>
+                                        <option value="1">Active</option>
+                                        <option value="2">Inactive</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2">Compliance Org Unit:</div>
+                                <div class="col-md-4">
+                                    @if (Model.lstComplianceOrgUnits != null && Model.lstComplianceOrgUnits.Count > 0)
+                                    {
+                                        @Html.DropDownListFor(m => m.WorkSpace.ComplianceOrgUnit, new SelectList(Model.lstComplianceOrgUnits, "Value", "Name"), "Select", new { @class = "form-control" });
+                                    }
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">Legal Entity:</div>
+                                <div class="col-md-4">
+                                    @if (Model.lstLegalEntities != null && Model.lstLegalEntities.Count > 0)
+                                    {
+                                        @Html.DropDownListFor(m => m.WorkSpace.LegalEntity, new SelectList(Model.lstLegalEntities, "Value", "Name"), "Select", new { @class = "form-control" });
+                                    }
+                                </div>
+                                <div class="col-md-2">Line Of Business:</div>
+                                <div class="col-md-4">@Html.TextBoxFor(m => m.WorkSpace.LineOfBusiness, new { @class = "form-control" })</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-4">
+                                    
+                                </div>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-4">
+                                    <div class="form-group pull-right" style="padding-right:15px;">
+
+                                        <button type="submit" class="btn btn-default">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+
+            @{
+                if (Model != null && Model.WorkSpaceDataSet != null)
+                {
+
+                    <table class="listing">
+                        <tr>
+                            <th>Reference Number</th>
+                            <th>Issue Name</th>
+                            <th>Type</th>
+                            <th>Line of Business</th>
+                            <th>Compliance Org Unit</th>
+                        </tr>
+                        @foreach (CoreDrive.Models.CoreDriveWorkspace ws in Model.WorkSpaceDataSet)
+                        {
+                            <tr>
+                                <td>@ws.UniqueReferenceNumber</td>
+                                <td>@ws.IssueName</td>
+                                <td>@ws.IssueType </td>
+                            <td>@ws.LineOfBusiness</td>
+                            <td>@ws.ComplianceOrgUnit</td>
+
+                        </tr>
+
+                        }
+                    </table>
+                }
+
+            }
+
+        </div>
+    </div>
+
+@section scripts
+{
+<script type="text/javascript">
+    $(document).ready(function () {
+      
+        $(".advanced-search-expander").click(function () {
+            $('.advanced-search-panel-body').toggle(function () {
+                if ($('.advanced-search-panel-body').css("display") == "block") {
+                    $(".advanced-search-expander").removeClass("glyphicon-plus-sign");
+                    $(".advanced-search-expander").addClass("glyphicon-minus-sign");
+                }
+                else {
+                    $(".advanced-search-expander").removeClass("glyphicon-minus-sign");
+                    $(".advanced-search-expander").addClass("glyphicon-plus-sign");
+                }
+            });
+        });
+
+       
+    });
+</script>
+
+}

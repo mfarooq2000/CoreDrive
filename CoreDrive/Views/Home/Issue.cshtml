@@ -1,0 +1,164 @@
+﻿@model CoreDrive.Models.IssueModel
+
+@{
+    ViewBag.Title = "Issue";
+}
+
+<h2>Create New Issue</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <div class="col-md-4">
+                <label class="control-label">Issue Name</label>
+
+                @Html.TextBoxFor(model => model.WorkSpace.IssueName, new { @class = "form-control required" })
+                @Html.ValidationMessageFor(model => model.WorkSpace.IssueName, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-md-4">
+                <label class="control-label">Unique Reference Number</label>
+
+                @Html.TextBoxFor(model => model.WorkSpace.UniqueReferenceNumber, new { @class = "form-control required" })
+                @Html.ValidationMessageFor(model => model.WorkSpace.UniqueReferenceNumber, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-4">
+                <label class="control-label">Issue Type</label>
+
+                @if (Model.lstIssueTypes != null && Model.lstIssueTypes.Count > 0)
+                {
+                    @Html.DropDownListFor(m => m.WorkSpace.IssueType, new SelectList(Model.lstIssueTypes, "Value", "Name"), "Select", new { @class = "form-control required" });
+                }
+                @Html.ValidationMessageFor(model => model.WorkSpace.IssueType, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+
+
+            <div class="col-md-4">
+                <label class="control-label">Work Category</label>
+
+                @if (Model.lstWorkCategories != null && Model.lstWorkCategories.Count > 0)
+                {
+                    @Html.DropDownListFor(m => m.WorkSpace.WorkCategory, new SelectList(Model.lstWorkCategories, "Value", "Name"), "Select", new { @class = "form-control required" })
+                }
+                @Html.ValidationMessageFor(model => model.WorkSpace.WorkCategory, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-md-4">
+                <label class="control-label">Issue Open Date</label>
+
+                @Html.TextBoxFor(model => model.WorkSpace.IssueOpenDate, new { @class = "form-control required" })
+                @Html.ValidationMessageFor(model => model.WorkSpace.IssueOpenDate, "", new { @class = "text-danger" })
+            </div>
+
+
+            <div class="col-md-4">
+                <label class="control-label">Status</label>
+
+                <select id="WorkSpace_Status" name="WorkSpace.Status" class="form-control required">
+                    <option value="">Select</option>
+                    <option value="1">Active</option>
+                    <option value="2">Inactive</option>
+                </select>
+                @Html.ValidationMessageFor(model => model.WorkSpace.Status, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-4">
+                <label class="control-label">Compliance Org Unit</label>
+
+                @if (Model.lstComplianceOrgUnits != null && Model.lstComplianceOrgUnits.Count > 0)
+                {
+                    @Html.DropDownListFor(m => m.WorkSpace.ComplianceOrgUnit, new SelectList(Model.lstComplianceOrgUnits, "Value", "Name"), "Select", new { @class = "form-control required" });
+                }
+                @Html.ValidationMessageFor(model => model.WorkSpace.ComplianceOrgUnit, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-md-4">
+                <label class="control-label">Legal Entity</label>
+
+                @if (Model.lstLegalEntities != null && Model.lstLegalEntities.Count > 0)
+                {
+                    @Html.DropDownListFor(m => m.WorkSpace.LegalEntity, new SelectList(Model.lstLegalEntities, "Value", "Name"), "Select", new { @class = "form-control required" });
+                }
+                @Html.ValidationMessageFor(model => model.WorkSpace.LegalEntity, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-4">
+                <label class="control-label">Line Of Business</label>
+
+                @Html.TextBoxFor(model => model.WorkSpace.LineOfBusiness, new { @class = "form-control required" })
+                @Html.ValidationMessageFor(model => model.WorkSpace.LineOfBusiness, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+
+
+
+            <div class="col-md-4">
+                <label class="control-label">Previous/Related Issue</label>
+
+                @Html.TextBoxFor(model => model.WorkSpace.RelatedIssue, new { @class = "form-control required" })
+                @Html.ValidationMessageFor(model => model.WorkSpace.RelatedIssue, "", new { @class = "text-danger" })
+            </div>
+
+
+            <div class="col-md-4">
+                <label class="control-label">Branch</label>
+
+                @Html.TextBoxFor(model => model.WorkSpace.Branch, new { @class = "form-control required" })
+                @Html.ValidationMessageFor(model => model.WorkSpace.Branch, "", new { @class = "text-danger" })
+            </div>
+
+
+            <div class="col-md-4">
+                <label class="control-label">Cost Center</label>
+
+                @Html.TextBoxFor(model => model.WorkSpace.CostCenter, new { @class = "form-control required" })
+                @Html.ValidationMessageFor(model => model.WorkSpace.CostCenter, "", new { @class = "text-danger" })
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-4">
+                <label class="control-label">
+                    Confidential
+                    <input type="checkbox" />
+
+                </label>
+            </div>
+            <div class="col-md-4">
+                <label class="control-label">
+                    Paper File
+                    @Html.CheckBoxFor(model => model.WorkSpace.PaperFile)
+                    @Html.ValidationMessageFor(model => model.WorkSpace.PaperFile, "", new { @class = "text-danger" })
+                </label>
+            </div>
+            <div class="col-md-4">
+                <input type="submit" value="Create" class="btn btn-default btn-lg pull-right" />
+            </div>
+
+        </div>
+
+
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
